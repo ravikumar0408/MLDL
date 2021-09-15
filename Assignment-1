@@ -1,0 +1,6 @@
+user_input = input("Enter your name: ")
+
+def print_back(p):
+  return user_input[::-1]
+
+print(print_back(p))
